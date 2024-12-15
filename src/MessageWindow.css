@@ -1,0 +1,38 @@
+.message-window {
+    height: 600px;
+    overflow-y: scroll;
+    border: 1px solid #27213c;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+  }
+  
+  .message {
+    align-self: flex-start;
+    width: 40%;
+    background-color: #f5fbef;
+    border: 1px solid #c7e2c9;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 5px 0;
+  }
+  
+  .message-self {
+    align-self: flex-end;
+    width: 40%;
+    background-color: #eccbcb;
+    border: 1px solid #d15050;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 5px 0;
+  }
+  .message-username {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 14px;
+    font-weight: bold;
+    color: #790000;
+  }
+  
+  .message-text {
+    font-size: 16px;
+  }

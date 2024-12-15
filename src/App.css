@@ -1,0 +1,19 @@
+#root {
+  display: flex;
+}
+
+.container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: auto;
+  background-image: linear-gradient(to bottom, #ff000000, #7900002c);
+}
+
+.container-title {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+}
